@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Secrets / environment
+.env
+.env.*
+!.env.example
+backend/.env
+pgpw.txt
+pgdata/
+.pgdata/
+pg.log
+
+# Uploaded content (keep folders)
+backend/uploads/recipes/*
+backend/uploads/avatars/*
+!backend/uploads/recipes/.gitkeep
+!backend/uploads/avatars/.gitkeep
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+package-lock.json.bak
+
+# Tooling / test artifacts
+backend/tests/.uploads/
+*.log
+shots/
+.playwright/
+ui-check*.mjs
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
